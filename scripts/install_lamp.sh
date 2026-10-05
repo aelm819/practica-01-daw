@@ -8,3 +8,6 @@ apt update
 
 # Instalamos el servidor web apache
 apt install apache2 -y
+
+# Copiamos el archivo de configuración de Apache
+cp ../conf/000-default.conf /etc/apache2/sites-available
